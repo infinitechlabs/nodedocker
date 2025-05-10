@@ -9,4 +9,4 @@ app.post("/user" , (req,res)=>{
     res.send("Post Tested")
 })
 
-app.listen(3000)
+app.listen(3001)

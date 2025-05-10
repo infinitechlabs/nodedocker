@@ -18,7 +18,7 @@ COPY . .
 RUN npm run build
 
 # Expose a port for your application (if needed for development)
-EXPOSE 3000
+EXPOSE 3001
 
 # Start the frontend application (use appropriate script if different)
 CMD ["npm", "start"]
